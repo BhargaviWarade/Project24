@@ -11,7 +11,7 @@ class PlayerArrow {
       this.angle = angle;
       this.archerAngle=archerAngle;
       this.body = Bodies.rectangle(x, y, this.width, this.height, options);
-      this.image = loadImage("./assets/arrow.png");
+      this.image = loadImage("arrow.png");
       World.add(world, this.body);
     }
   
